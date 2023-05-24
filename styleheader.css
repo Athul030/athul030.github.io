@@ -1,0 +1,150 @@
+*{
+  margin:0;
+  padding:0;
+}
+.header{
+  display: flex;
+  background-color: #009b4e;
+  width:100%;
+  height:90px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  
+}
+.writings{
+  display: inline;
+  font-family: Franklin Gothic Heavy, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding-left: 38px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+.writings:hover{
+  color:black;
+
+}
+.logo{
+  width: 131.575px;
+  height: 49.987px;
+  padding-left: 42px;
+  padding-right: 32px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.section2{
+  position: relative;
+  top: 40%;
+  left: 22px;
+  color: white;
+  
+}
+.icons{
+  display: inline;
+  padding-left: 25px;
+  cursor: pointer;
+}
+.icons.user{
+  padding-left: 50px;
+  filter:invert(1);
+}
+.icons:hover{
+filter: invert(1);
+}
+.icons.user:hover{
+  filter:invert(0);
+}
+
+.section3{
+  padding-top: 32px;
+  margin-left:496px;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+}
+.firstgrid{
+  display:flex;
+ background-color: black;
+}
+
+.banner1{
+  padding-left: 63px;
+  padding-top: 170px;
+  width:379.8px;
+  height:84.63px;
+}
+.celeb{
+  margin-top: 277px;
+  margin-left: -380px;
+  color: white;
+  font-size: 80px;
+  font-family: Franklin Gothic Heavy, sans-serif;
+  font-size: 72.3px;
+  font-weight: 900;
+}
+.banner2{
+  padding-top: 90px;
+  background-color: black;
+  max-width: 100%;
+  
+}
+.btn{
+  border:none;
+  width:170px;
+  height:44px;
+  display: inline-block;
+  margin-top: 497px;
+  margin-left: -585px;
+  color: rgb(0, 0, 0);
+  font-family: Franklin Gothic Heavy, sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  background-color: rgb(255,209,0);
+  cursor: pointer;
+}
+.btn:hover{
+  
+  color: rgb(0, 0, 0);
+  font-family: Franklin Gothic Heavy, sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  background-color: rgb(255,209,0);
+}
+.secpage{
+  display: grid;
+  grid-template-columns: 25% 25%;
+  grid-template-columns: 25% 25%;;
+}
+
+
+.secpage{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  width:50%
+}
+.video{
+  padding-top:45px;
+  padding-left: 138px;
+  
+}
+.newdrip{
+  transform: translate(50%,-320px);
+  
+}
+.clear{
+  display: inline-flex;
+  font-family: Franklin Gothic Heavy, sans-serif;
+  line-height: 1.2;
+  padding-left: 130px;
+  font-size: 30px;
+  font-weight: 900;
+  color:green
+}
